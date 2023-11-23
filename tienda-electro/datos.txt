@@ -1,0 +1,25 @@
+
+db.ventas.insertMany([
+  { productoId: ObjectId("id_del_JBL_Flip_5"), cantidad: 3, precioTotal: 360, fechaVenta: new Date("2023-11-01"), vendedor: "Juan Pérez" },
+  { productoId: ObjectId("id_del_Sony_SRS_XB12"), cantidad: 2, precioTotal: 200, fechaVenta: new Date("2023-11-02"), vendedor: "Ana Gómez" },
+  { productoId: ObjectId("id_del_Bose_SoundLink"), cantidad: 1, precioTotal: 180, fechaVenta: new Date("2023-11-03"), vendedor: "Lucas Martín" },
+  { productoId: ObjectId("id_del_Panasonic_RF_2400D"), cantidad: 1, precioTotal: 30, fechaVenta: new Date("2023-11-04"), vendedor: "Clara Rodríguez" },
+  { productoId: ObjectId("id_del_Sony_ICF_P36"), cantidad: 2, precioTotal: 50, fechaVenta: new Date("2023-11-05"), vendedor: "Roberto Sánchez" },
+  { productoId: ObjectId("id_del_Sangean_PR_D18"), cantidad: 1, precioTotal: 50, fechaVenta: new Date("2023-11-06"), vendedor: "María López" },
+  { productoId: ObjectId("id_del_Logitech_MX_Master_3"), cantidad: 2, precioTotal: 200, fechaVenta: new Date("2023-11-07"), vendedor: "Diego González" },
+  { productoId: ObjectId("id_del_Razer_DeathAdder_V2"), cantidad: 1, precioTotal: 70, fechaVenta: new Date("2023-11-08"), vendedor: "Sofía Hernández" },
+  { productoId: ObjectId("id_del_Apple_Magic_Mouse_2"), cantidad: 1, precioTotal: 80, fechaVenta: new Date("2023-11-09"), vendedor: "Carlos García" }
+]);
+
+
+ db.productos.insertMany([
+  { nombre: "JBL Flip 5", categoria: "parlantes", precioUnitario: 120 },
+  { nombre: "Sony SRS-XB12", categoria: "parlantes", precioUnitario: 100 },
+  { nombre: "Bose SoundLink", categoria: "parlantes", precioUnitario: 180 },
+  { nombre: "Panasonic RF-2400D", categoria: "radios", precioUnitario: 30 },
+  { nombre: "Sony ICF-P36", categoria: "radios", precioUnitario: 25 },
+  { nombre: "Sangean PR-D18", categoria: "radios", precioUnitario: 50 },
+  { nombre: "Logitech MX Master 3", categoria: "mouse", precioUnitario: 100 },
+  { nombre: "Razer DeathAdder V2", categoria: "mouse", precioUnitario: 70 },
+  { nombre: "Apple Magic Mouse 2", categoria: "mouse", precioUnitario: 80 }
+]);
